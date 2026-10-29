@@ -402,6 +402,6 @@ def ekspor():
     return Response(output.getvalue(), mimetype="text/csv; charset=utf-8",
                     headers={"Content-Disposition":f"attachment; filename=rekap_{kelas.replace(' ','_')}.csv"})
 
-if __name__ == "__main__":
-    init_db()
-    app.run(host="127.0.0.1", port=5000, debug=False)
+init_name_=="_main_":
+    app.run(host="0.0.0.0",port=5000,debug=false)
+    
